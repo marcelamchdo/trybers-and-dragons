@@ -57,14 +57,14 @@ class Character implements Fighter {
   }
 
   // metodo implementado usando como referencia a branch do daniel rubens
-  receiveDamage(attackPoints: number) {
+  receiveDamage(attackPoints: number): number {
     const damage = attackPoints - this._defense;
     if (damage > 0) this._lifePoints -= damage;
     if (this._lifePoints <= 0) this._lifePoints = -1;
     return this._lifePoints;
   }
 
-  attack(enemy: Fighter | SimpleFighter): void {
+  attack(enemy: SimpleFighter): void {
     enemy.receiveDamage(this._strength);
   }
 
