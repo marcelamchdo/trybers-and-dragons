@@ -13,15 +13,15 @@ class PVP extends Battle {
 
   fight(): number {
     this._playerOne.attack(this._playerTwo);
-    this._playerTwo.attack(this._playerOne);
-
-    if (this._playerOne.lifePoints === -1) {
-      return -1;
-    }
     if (this._playerTwo.lifePoints === -1) {
-      return 1;
+      return super.fight();
     }
-    return 0;
+    this._playerTwo.attack(this._playerOne);
+    if (this._playerOne.lifePoints === -1) {
+      return super.fight();
+    }
+    this.fight();
+    return -1;
   }
 }
 
