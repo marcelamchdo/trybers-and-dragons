@@ -1,13 +1,25 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+## 🎲 Trybers and Dragons 🐉
+---
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+### <strong>💻 Sobre</strong>
+Esse projeto foi desenvolvido durante o curso de desenvolvimento web da Trybe durante o módulo de back-end, o objetivo era criar um jogo de RPG estilo Dungeons and Dragons utilizando POO e Solid.
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+---
+
+### <strong>🖱️ Tecnologias Utilizadas</strong>
+* TypeScript
+* OOP (Object-Oriented Programming)
+* SOLID
+---
+
+### <strong>📔 Habilidades</strong>
+
+  - Criar classes e classes e métodos abstratas;
+
+  - Definir types e interfaces;
+
+  - Utilizar conceitos de POO como: Abstração, Encapsulamento, Herança, Composição e Polimorfismo;
+  
+  - Utilizar princípios de SOLID como: Responsabilidade Única, Aberto/Fechado, Inversão de dependência, Substituição de Liskov e Segragação de Interfaces.
+---
+
